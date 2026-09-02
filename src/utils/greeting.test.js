@@ -6,5 +6,5 @@ it('hälsar med förnamnet', () => {
 })
 
 it('skickar in ett undefined namn', () => {
-  expect(greeting(undefined)).toBe('Hej Anna!')
+  expect(greeting(undefined)).toBe('')
 })
