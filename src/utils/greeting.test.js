@@ -1,5 +1,5 @@
 import { it, expect } from 'vitest'
-import { greeting } from './greeting'
+import { greeting } from './Greeting'
 
 it('hälsar med förnamnet', () => {
   expect(greeting('Anna Andersson')).toBe('Hej Anna!')
